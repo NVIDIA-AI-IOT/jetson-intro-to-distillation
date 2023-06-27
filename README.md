@@ -1,4 +1,4 @@
-# Tutorial 1 - Introduction to Knowledge Distillation
+# Jetson Introduction to Knowledge Distillation
 
 <img src="assets/landing_graphic.jpg" height="320"/>
 
