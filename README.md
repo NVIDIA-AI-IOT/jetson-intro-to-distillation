@@ -4,7 +4,7 @@
 <img src="assets/landing_graphic.jpg" height="320"/>
 
 
-This repository contains an introduction to the subject of knowledge distillation,
+This repository contains tutorial that is an introduction to the subject of knowledge distillation,
 which can be a helpful tool to use when deploying large models to the edge.
 
 In this tutorial, we explore knowledge distillation by transfering the knowledge
