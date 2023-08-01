@@ -1,6 +1,9 @@
 # Jetson Introduction to Knowledge Distillation
 
+> Check out our other project [clip-distillation](https://github.com/NVIDIA-AI-IOT/clip-distillation) to see how you can use knoweldge distillation to create your own custom image classifier without any labeled data!
+
 <img src="assets/landing_graphic.jpg" height="320"/>
+
 
 This tutorial is an introduction to the subject of knowledge distillation,
 which can be a helpful tool to use when deploying large models to the edge.
