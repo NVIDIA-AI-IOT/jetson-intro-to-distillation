@@ -543,13 +543,17 @@ resnet18 classifier on the STL10 classification dataset.  We achieved comparable
 accuracy to the original OpenCLIP model for this task, while significantly reducing the 
 runtime and memory consumption.  We hope this tutorial introduced you to ways that you can explore knowledge distillation for brining large models to the edge. However, there is still much more to explore.  
 
-In the next tutorial on training a zero-label image classifier, we'll show you how you can
+We've created a companion project, [clip-distillation](https://github.com/NVIDIA-AI-IOT/clip-distillation), that
+demonstrates how you can create a zero-label image classifier for *your* own custom task!
 
-1. Curate your own dataset for performing knowledge distillation with OpenCLIP on a custom task
-2. Distil your own image model on OpenCLIP, including using sparsity and quantization aware training.
-3. Deploy your distilled model with TensorRT.
+It includes,
 
-To get started head to [Tutorial 2 - Create your own zero-label image clasifier](../part_2_zero_label_classifier/README.md).
+1. Scripts to download data for distillation
+2. Scripts to distil an efficient CNN model to mimic an OpenCLIP transformer model
+   - Includes quantization aware training and structured sparsity as options during training.
+3. Scripts to run inference with NVIDIA TensorRT.
+
+To get started head to [clip-distillation](https://github.com/NVIDIA/clip-distillation)!
 
 ## References
 
