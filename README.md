@@ -4,10 +4,10 @@
 <img src="assets/landing_graphic.jpg" height="320"/>
 
 
-This tutorial is an introduction to the subject of knowledge distillation,
+This repository contains a tutorial that is a short introduction to the subject of knowledge distillation,
 which can be a helpful tool to use when deploying large models to the edge.
 
-We'll knowledge distillation by transfering the knowledge
+In this tutorial, we explore knowledge distillation by transfering the knowledge
 from the OpenCLIP vision-language model into a ResNet18 model for the purpose of classification
 on the STL10 dataset.  We'll explore how the data used for distillation, the methods used for distillation, and model architecture impact the final accuracy.  We'll also discuss how you can profile and optimize models for final real-time deployment
 on NVIDIA Jetson Orin Nano.
