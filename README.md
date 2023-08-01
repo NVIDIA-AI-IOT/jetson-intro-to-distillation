@@ -541,19 +541,19 @@ For this particular image classification task, Jetson Orin Nano is plenty capabl
 That's it for this tutorial!  In summary, in in this tutorial, we explored using Knowledge Distillation for training a 
 resnet18 classifier on the STL10 classification dataset.  We achieved comparable
 accuracy to the original OpenCLIP model for this task, while significantly reducing the 
-runtime and memory consumption.  We hope this tutorial introduced you to ways that you can explore knowledge distillation for brining large models to the edge. However, there is still much more to explore.  
+runtime and memory consumption.  We hope this tutorial introduced you to ways that you can explore knowledge distillation for brining large models to the edge. 
 
-We've created a companion project, [clip-distillation](https://github.com/NVIDIA-AI-IOT/clip-distillation), that
-demonstrates how you can create a zero-label image classifier for *your* own custom task!
+In addition to this introduction, we've created a companion project, [clip-distillation](https://github.com/NVIDIA-AI-IOT/clip-distillation), 
+that enables you to easily create a zero-label image classifier for *your* own custom task!
 
 It includes,
 
-1. Scripts to download data for distillation
-2. Scripts to distil an efficient CNN model to mimic an OpenCLIP transformer model
+1. Scripts to download relevant clip-filtered images to use for distillation
+2. Scripts to distil an efficient CNN model to mimic an OpenCLIP transformer model 
    - Includes quantization aware training and structured sparsity as options during training.
 3. Scripts to run inference with NVIDIA TensorRT.
 
-To get started head to [clip-distillation](https://github.com/NVIDIA/clip-distillation)!
+To get started head to [clip-distillation](https://github.com/NVIDIA/clip-distillation).
 
 ## References
 
