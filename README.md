@@ -557,7 +557,7 @@ It includes,
    - Includes quantization aware training and structured sparsity as options during training.
 3. Scripts to run inference with NVIDIA TensorRT.
 
-To get started head to [clip-distillation](https://github.com/NVIDIA/clip-distillation).
+To get started head to [clip-distillation](https://github.com/NVIDIA-AI-IOT/clip-distillation).
 
 ## References
 
