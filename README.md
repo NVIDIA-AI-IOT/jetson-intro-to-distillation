@@ -235,7 +235,7 @@ for image, label in tqdm.tqdm(dataset):
 accuracy = 100. * num_correct / len(dataset)
 ```
 
-And viola!  Out of the box, the OpenCLIP encoder, without any additional training,
+And after this, out of the box, the OpenCLIP encoder, without any additional training,
 get's **96.68%** accuracy on the STL10 test dataset!  With no tricks, we achieved fairly competitive accuracy on the STL10 dataset, for comparison you can see other
 competitive results on the STL10 dataset [here](https://paperswithcode.com/sota/image-classification-on-stl-10)
 
